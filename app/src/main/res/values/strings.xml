@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Konnichiwa</string>
+    <string name="NumberActivity">Numbers</string>
+    <string name="FamilyActivity">Family</string>
+    <string name="ColorActivity">Colors</string>
+    <string name="PhraseActivity">Phrases</string>
+    <string name="image_desc">icon tied to the word</string>
+    <string name="image_desc_play">play icon button</string>
+</resources>

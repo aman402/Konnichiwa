@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Konnichiwa</string>
-    <string name="NumberActivity">Num</string>
+    <string name="NumberActivity">Number</string>
     <string name="FamilyActivity">Family</string>
     <string name="ColorActivity">Colors</string>
     <string name="PhraseActivity">Phrases</string>

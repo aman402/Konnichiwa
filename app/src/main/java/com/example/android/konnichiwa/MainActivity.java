@@ -17,11 +17,12 @@ public class MainActivity extends AppCompatActivity {
 
         Button myButton = findViewById(R.id.numberButton);
         myButton.setOnClickListener(view -> {
+
             // Toast.makeText(this, "Opening Numbers Activity", Toast.LENGTH_SHORT).show();
             Intent myIntent = new Intent(MainActivity.this, NumbersActivity.class);
             startActivity(myIntent);
         });
-         myButton = findViewById(R.id.familyButton);
+        myButton = findViewById(R.id.familyButton);
         myButton.setOnClickListener(view -> {
             // Toast.makeText(this, "Opening Family Activity", Toast.LENGTH_SHORT).show();
             Intent myIntent = new Intent(MainActivity.this, FamilyActivity.class);

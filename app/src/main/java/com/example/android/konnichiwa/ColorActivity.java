@@ -25,8 +25,6 @@ public class ColorActivity extends AppCompatActivity {
         numbers.add(new Word("yellow","黄色 (kiiro)", R.drawable.color_mustard_yellow, R.raw.yellow));
         // numbers.add(new Word("light green","黄緑 (kkimidori)"));
         numbers.add(new Word("green","緑 (midori)", R.drawable.color_green, R.raw.green));
-        // numbers.add(new Word("pink","桃色 (momoiro)"));
-        // numbers.add(new Word("purple","紫 (murasaki)"));
         numbers.add(new Word("brown","茶色 (chairo)", R.drawable.color_brown, R.raw.brown));
         numbers.add(new Word("grey","灰色 (haiiro)", R.drawable.color_gray, R.raw.grey));
         // numbers.add(new Word("light blue", "水色 (mizuiro)"));
@@ -51,7 +49,6 @@ public class ColorActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-
         releaseMediaPlayer();
     }
 }
